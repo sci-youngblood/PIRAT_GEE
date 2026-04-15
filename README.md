@@ -1,6 +1,6 @@
 # PIRAT_GEE
 
-Google Earth Engine project mapping the PIRAT (Pacific Islands Reef Assessment and Tracking) acoustic telemetry receiver network across the Hawaiian Archipelago.
+Google Earth Engine project mapping the PIRAT (Pacific Islands Region Acoustic Telemetry) acoustic telemetry receiver network across the Hawaiian Archipelago.
 
 **Live app:** https://atlantean-house-406306.projects.earthengine.app/view/piratarchipelago
 
