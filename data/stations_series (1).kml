@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="stations_series_1" id="stations_series_1">
+            <SimpleField type="string" name="collectioncode"/>
+            <SimpleField type="string" name="seriescode"/>
+            <SimpleField type="string" name="ocean"/>
+            <SimpleField type="string" name="station_name"/>
+            <SimpleField type="string" name="station_type"/>
+            <SimpleField type="string" name="latitude"/>
+            <SimpleField type="string" name="longitude"/>
+            <SimpleField type="string" name="depth"/>
+            <SimpleField type="string" name="stationstatus"/>
+            <SimpleField type="string" name="stationclass"/>
+            <SimpleField type="string" name="first_year"/>
+            <SimpleField type="string" name="last_year"/>
+            <SimpleField type="string" name="locality"/>
+            <SimpleField type="string" name="notes"/>
+            <SimpleField type="string" name="rcvr_serial"/>
+            <SimpleField type="string" name="map_code"/>
+        </Schema>
+        <Folder>
+            <name>stations_series</name>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0f">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD ZZ</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.9483</SimpleData>
+                        <SimpleData name="longitude">-155.965</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2023-09-25</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.965,19.9483</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD X</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.86333</SimpleData>
+                        <SimpleData name="longitude">-157.99333</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-06-06</SimpleData>
+                        <SimpleData name="last_year">2025-06-07</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-06-06&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-29&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-30&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-09-09&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-04&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-04&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-31&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-08-19&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-18&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-04-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.99333,21.86333</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD P</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.773</SimpleData>
+                        <SimpleData name="longitude">-157.8116</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-10-13</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-13&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;33.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;37.3 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.8116,20.773</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD BO</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.15</SimpleData>
+                        <SimpleData name="longitude">-158.152</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-11-19</SimpleData>
+                        <SimpleData name="last_year">2025-06-09</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-11-19&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;2023-02-17&lt;/td&gt;&lt;td align=center nowrap&gt;2023-01-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-01-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.152,21.15</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0b">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD MM</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.6067</SimpleData>
+                        <SimpleData name="longitude">-157.52</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-06-06</SimpleData>
+                        <SimpleData name="last_year">2025-06-07</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-06-06&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-09&lt;/td&gt;&lt;td align=center nowrap&gt;2019-12-14&lt;/td&gt;&lt;td align=center nowrap&gt;2019-12-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-09-09&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-03&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-03&lt;/td&gt;&lt;td align=center nowrap&gt;2022-11-21&lt;/td&gt;&lt;td align=center nowrap&gt;2022-11-18&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-29&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-01-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-01-27&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-02-06&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.52,21.6067</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d0a">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD C</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.385</SimpleData>
+                        <SimpleData name="longitude">-155.98667</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-01-10</SimpleData>
+                        <SimpleData name="last_year">2025-06-27</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-01-10&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-13&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-12&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-15&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;3&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-30&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;2021-01-04&lt;/td&gt;&lt;td align=center nowrap&gt;2021-01-02&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-15&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-28&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.2 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.98667,19.385</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d09">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD R</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.45833</SimpleData>
+                        <SimpleData name="longitude">-158.28166</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2022-02-14</SimpleData>
+                        <SimpleData name="last_year">2025-06-12</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-02-14&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-15&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;2023-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;5.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;5.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-01-22&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;35.4 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-07&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;5.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-26&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-29&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-25&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;5.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-25&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;5.3 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.28166,21.45833</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d08">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU FISH CAGE OUTSIDE</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.5514</SimpleData>
+                        <SimpleData name="longitude">-156.0506</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-06-16</SimpleData>
+                        <SimpleData name="last_year">2021-06-25</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-06-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-07-19&lt;/td&gt;&lt;td align=center nowrap&gt;2021-06-25&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.0506,19.5514</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d07">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD V</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.5383</SimpleData>
+                        <SimpleData name="longitude">-158.313</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2022-02-14</SimpleData>
+                        <SimpleData name="last_year">2025-06-12</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-02-14&lt;/td&gt;&lt;td align=center nowrap&gt;2024-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;2023-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-02&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.313,21.5383</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d06">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU FISH CAGE</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.5514</SimpleData>
+                        <SimpleData name="longitude">-156.0506</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2019-07-08</SimpleData>
+                        <SimpleData name="last_year">2021-06-25</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-08&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-31&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-23&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-08-06&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2021-04-25&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-04-25&lt;/td&gt;&lt;td align=center nowrap&gt;2021-07-19&lt;/td&gt;&lt;td align=center nowrap&gt;2021-06-25&lt;/td&gt;&lt;td align=center nowrap&gt;3&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.0506,19.5514</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d05">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD XX</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.03666</SimpleData>
+                        <SimpleData name="longitude">-156.10333</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-04-24</SimpleData>
+                        <SimpleData name="last_year">2025-06-26</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-04-24&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-14&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-08&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-14&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-13&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-05-03&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;7.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-14&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-30&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;7.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-12-19&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;34.5 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.10333,20.03666</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d04">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">HAWAII KAI</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.2383</SimpleData>
+                        <SimpleData name="longitude">-157.7175</SimpleData>
+                        <SimpleData name="depth">30.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-09-25</SimpleData>
+                        <SimpleData name="last_year">2022-05-21</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;2022-05-22&lt;/td&gt;&lt;td align=center nowrap&gt;2022-05-21&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.7175,21.2383</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d03">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD VV</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.585</SimpleData>
+                        <SimpleData name="longitude">-156.03167</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-12-08</SimpleData>
+                        <SimpleData name="last_year">2025-06-26</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-08&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-15&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2019-09-17&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-30&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-08-21&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-15&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-15&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.1 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.03167,19.585</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d02">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD UU</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.28</SimpleData>
+                        <SimpleData name="longitude">-155.95167</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-01-11</SimpleData>
+                        <SimpleData name="last_year">2025-06-27</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-13&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;2019-11-28&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-08-21&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-07&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-06&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-06&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-29&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;175.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;175.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-28&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;175.5 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.95167,19.28</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d01">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD B</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.1983</SimpleData>
+                        <SimpleData name="longitude">-155.94833</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-03-27</SimpleData>
+                        <SimpleData name="last_year">2025-06-27</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-03-27&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-15&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-30&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-07&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-06&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-09-06&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-05&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-04&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-04&lt;/td&gt;&lt;td align=center nowrap&gt;2023-07-06&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-01&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-28&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.94833,19.1983</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d00">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD J</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.8333</SimpleData>
+                        <SimpleData name="longitude">-158.1467</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-11-12</SimpleData>
+                        <SimpleData name="last_year">2025-06-07</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-11-12&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-18&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-13&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-12&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;31.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.1467,21.8333</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cff">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD T</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.48</SimpleData>
+                        <SimpleData name="longitude">-157.48</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-12-14</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-14&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;5788.1 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;5788.1 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.48,21.48</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cfe">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD CO</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.5617</SimpleData>
+                        <SimpleData name="longitude">-158.4467</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-11-12</SimpleData>
+                        <SimpleData name="last_year">2025-06-11</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-11-12&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-18&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-11&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;31.1 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.4467,21.5617</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cfd">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD LL</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.74833</SimpleData>
+                        <SimpleData name="longitude">-157.755</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-06-06</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-06-06&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-09&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-30&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-09-09&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-26&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-04&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-07&lt;/td&gt;&lt;td align=center nowrap&gt;2022-12-03&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-29&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-01-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-01-27&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;3.3 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.755,21.74833</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cfc">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD OT</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.87667</SimpleData>
+                        <SimpleData name="longitude">-156.19333</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-04-24</SimpleData>
+                        <SimpleData name="last_year">2025-07-24</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-04-24&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-14&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-12-08&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-14&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-13&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-08-21&lt;/td&gt;&lt;td align=center nowrap&gt;2021-05-03&lt;/td&gt;&lt;td align=center nowrap&gt;2020-11-17&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-10&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-25&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-20&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.19333,19.87667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cfb">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD S</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.39667</SimpleData>
+                        <SimpleData name="longitude">-158.24667</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-09-10</SimpleData>
+                        <SimpleData name="last_year">2025-06-12</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-09-10&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;2022-04-30&lt;/td&gt;&lt;td align=center nowrap&gt;2022-04-17&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-20&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-07&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-26&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.24667,21.39667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cfa">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD II</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.7466</SimpleData>
+                        <SimpleData name="longitude">-158.222</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2022-02-14</SimpleData>
+                        <SimpleData name="last_year">2025-06-11</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-02-14&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-18&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-13&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-12&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-18&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-18&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-01-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-11&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.222,21.7466</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf9">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD F</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.506</SimpleData>
+                        <SimpleData name="longitude">-156.15666</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-03-27</SimpleData>
+                        <SimpleData name="last_year">2025-06-26</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-03-27&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-15&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-14&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-21&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-20&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-30&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-07-29&lt;/td&gt;&lt;td align=center nowrap&gt;2021-04-23&lt;/td&gt;&lt;td align=center nowrap&gt;2021-01-16&lt;/td&gt;&lt;td align=center nowrap&gt;4&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-05-03&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-28&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;66.4 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;66.4 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-27&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;66.4 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.15666,19.506</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf8">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD U</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.58167</SimpleData>
+                        <SimpleData name="longitude">-157.69167</SimpleData>
+                        <SimpleData name="depth">2000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-06-06</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-06-06&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-11&lt;/td&gt;&lt;td align=center nowrap&gt;2019-01-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-09-09&lt;/td&gt;&lt;td align=center nowrap&gt;2021-04-19&lt;/td&gt;&lt;td align=center nowrap&gt;2021-04-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-09&lt;/td&gt;&lt;td align=center nowrap&gt;2023-05-05&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-20&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-06&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-03&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-11-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-02-07&lt;/td&gt;&lt;td align=center nowrap&gt;2025-02-06&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.5 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2025-02-06&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;490.9 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.69167,21.58167</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf7">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD TT</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.07667</SimpleData>
+                        <SimpleData name="longitude">-155.95667</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-05-23</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-05-23&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-21&lt;/td&gt;&lt;td align=center nowrap&gt;2020-01-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-10&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;4.6 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-08&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-29&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;10.7 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;10.7 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;10.7 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.95667,19.07667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf6">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">WHOT BUOY</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">22.766</SimpleData>
+                        <SimpleData name="longitude">-157.8993</SimpleData>
+                        <SimpleData name="depth">5000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2018-09-01</SimpleData>
+                        <SimpleData name="last_year">2023-06-19</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2018-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2019-10-18&lt;/td&gt;&lt;td align=center nowrap&gt;2019-10-18&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;10493.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-08-26&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-26&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-26&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-07-25&lt;/td&gt;&lt;td align=center nowrap&gt;2023-07-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-06-19&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;177.5 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.8993,22.766</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf5">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KONA FISH CAGE</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.714</SimpleData>
+                        <SimpleData name="longitude">-156.0546</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2017-10-10</SimpleData>
+                        <SimpleData name="last_year">2024-09-24</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2017-10-10&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2018-08-12&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-06-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-30&lt;/td&gt;&lt;td align=center nowrap&gt;2023-09-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-05&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.0546,19.714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3cf4">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.HCTP</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">FAD HH</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">21.035</SimpleData>
+                        <SimpleData name="longitude">-158.035</SimpleData>
+                        <SimpleData name="depth">2000.0</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-10-10</SimpleData>
+                        <SimpleData name="last_year">2025-06-09</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-10&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-17&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2022-08-16&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-18&lt;/td&gt;&lt;td align=center nowrap&gt;2025-07-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-06-09&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.035,21.035</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="stations_series_1" id="stations_series_1">
+            <SimpleField type="string" name="collectioncode"/>
+            <SimpleField type="string" name="seriescode"/>
+            <SimpleField type="string" name="ocean"/>
+            <SimpleField type="string" name="station_name"/>
+            <SimpleField type="string" name="station_type"/>
+            <SimpleField type="string" name="latitude"/>
+            <SimpleField type="string" name="longitude"/>
+            <SimpleField type="string" name="depth"/>
+            <SimpleField type="string" name="stationstatus"/>
+            <SimpleField type="string" name="stationclass"/>
+            <SimpleField type="string" name="first_year"/>
+            <SimpleField type="string" name="last_year"/>
+            <SimpleField type="string" name="locality"/>
+            <SimpleField type="string" name="notes"/>
+            <SimpleField type="string" name="rcvr_serial"/>
+            <SimpleField type="string" name="map_code"/>
+        </Schema>
+        <Folder>
+            <name>stations_series</name>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d21">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">DROPPEDTAG1</SimpleData>
+                        <SimpleData name="latitude">19.57183</SimpleData>
+                        <SimpleData name="longitude">-156.00275</SimpleData>
+                        <SimpleData name="depth">1000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.00275,19.57183</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d20">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">HILOBAY</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.74406</SimpleData>
+                        <SimpleData name="longitude">-155.07884</SimpleData>
+                        <SimpleData name="depth">17.3736</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-03-27</SimpleData>
+                        <SimpleData name="last_year">2025-03-01</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-03-27&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-30&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-29&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-29&lt;/td&gt;&lt;td align=center nowrap&gt;2022-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-25&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-06&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-06&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-27&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-26&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-26&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-09&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.07884,19.74406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1f">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">DROPPEDTAG2</SimpleData>
+                        <SimpleData name="latitude">19.57183</SimpleData>
+                        <SimpleData name="longitude">-156.00275</SimpleData>
+                        <SimpleData name="depth">1000</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.00275,19.57183</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">AIRPORTWEST</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.76259</SimpleData>
+                        <SimpleData name="longitude">-156.08235</SimpleData>
+                        <SimpleData name="depth">128.016</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-16</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-19&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-19&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-22&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;12.8 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-22&lt;/td&gt;&lt;td align=center nowrap&gt;2022-10-30&lt;/td&gt;&lt;td align=center nowrap&gt;2022-10-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-10-29&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-20&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-10-20&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-29&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;757.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;54.3 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.08235,19.76259</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">OKOEBAY</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.14538</SimpleData>
+                        <SimpleData name="longitude">-155.92493</SimpleData>
+                        <SimpleData name="depth">91.44</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-17</SimpleData>
+                        <SimpleData name="last_year">2025-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-21&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-21&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2022-12-12&lt;/td&gt;&lt;td align=center nowrap&gt;2022-12-01&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-24&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-24&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.92493,19.14538</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_MID</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.57098</SimpleData>
+                        <SimpleData name="longitude">-156.00156</SimpleData>
+                        <SimpleData name="depth">146.304</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-16</SimpleData>
+                        <SimpleData name="last_year">2025-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-23&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-30&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-24&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-25&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.00156,19.57098</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1b">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">HONAUNAU</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.42299</SimpleData>
+                        <SimpleData name="longitude">-155.91919</SimpleData>
+                        <SimpleData name="depth">107.8992</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-17</SimpleData>
+                        <SimpleData name="last_year">2025-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-21&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-21&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-22&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-22&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-07&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-26&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-25&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-25&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-25&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-04&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.91919,19.42299</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d1a">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_NTH</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.58677</SimpleData>
+                        <SimpleData name="longitude">-156.00586</SimpleData>
+                        <SimpleData name="depth">128.016</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-16</SimpleData>
+                        <SimpleData name="last_year">2025-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-23&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-22&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-24&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-24&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-03-01&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-29&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2025-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.00586,19.58677</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d19">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_1</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.53177</SimpleData>
+                        <SimpleData name="longitude">-155.97908</SimpleData>
+                        <SimpleData name="depth">100.584</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-03-26</SimpleData>
+                        <SimpleData name="last_year">2020-10-14</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-03-26&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.97908,19.53177</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d18">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KAENA POINT</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">21.58629</SimpleData>
+                        <SimpleData name="longitude">-158.35048</SimpleData>
+                        <SimpleData name="depth">98.7552</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2022-03-02</SimpleData>
+                        <SimpleData name="last_year">2024-05-20</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-17&lt;/td&gt;&lt;td align=center nowrap&gt;2024-05-21&lt;/td&gt;&lt;td align=center nowrap&gt;2024-05-20&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-158.35048,21.58629</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d17">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">MOKUMANU</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">21.4659</SimpleData>
+                        <SimpleData name="longitude">-157.75846</SimpleData>
+                        <SimpleData name="depth">43.89</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2024-09-08</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-09-08&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.75846,21.4659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d16">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KBAY_OFF</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">21.51802</SimpleData>
+                        <SimpleData name="longitude">-157.79314</SimpleData>
+                        <SimpleData name="depth">106.07039999999999</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2022-05-29</SimpleData>
+                        <SimpleData name="last_year">2024-11-23</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-05-29&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-22&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-21&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-04-21&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-24&lt;/td&gt;&lt;td align=center nowrap&gt;2024-11-23&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-157.79314,21.51802</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d15">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEALAKEKUA_NTH</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.48882</SimpleData>
+                        <SimpleData name="longitude">-155.95944</SimpleData>
+                        <SimpleData name="depth">118.872</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-17</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;2021-11-01&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-23&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;62.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-23&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-06&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;62.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-28&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-27&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;62.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-02-27&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;50.7 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.95944,19.48882</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d14">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_3</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.5609</SimpleData>
+                        <SimpleData name="longitude">-155.98808</SimpleData>
+                        <SimpleData name="depth">80.4672</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-03-26</SimpleData>
+                        <SimpleData name="last_year">2020-10-14</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-03-26&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.98808,19.5609</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d13">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_2</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">19.54547</SimpleData>
+                        <SimpleData name="longitude">-155.98731</SimpleData>
+                        <SimpleData name="depth">84.1248</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-03-26</SimpleData>
+                        <SimpleData name="last_year">2020-10-14</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2020-03-26&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-17&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-14&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.98731,19.54547</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d12">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">SOUTHPOINT</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">18.86668</SimpleData>
+                        <SimpleData name="longitude">-155.68187</SimpleData>
+                        <SimpleData name="depth">128.016</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2021-10-31</SimpleData>
+                        <SimpleData name="last_year">2022-12-01</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2022-12-12&lt;/td&gt;&lt;td align=center nowrap&gt;2022-12-01&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.68187,18.86668</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d11">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KEAUHOU_STH</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.54549</SimpleData>
+                        <SimpleData name="longitude">-155.98735</SimpleData>
+                        <SimpleData name="depth">85.9536</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-16</SimpleData>
+                        <SimpleData name="last_year">2025-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-16&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-20&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-31&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-23&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2022-03-23&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-03&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2023-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-03-02&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-03&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-01&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2024-07-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-09-01&lt;/td&gt;&lt;td align=center nowrap&gt;2025-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-155.98735,19.54549</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8297c619_-3d10">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.LHWI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">KUKIO</SimpleData>
+                        <SimpleData name="station_type">Transceiver</SimpleData>
+                        <SimpleData name="latitude">19.82762</SimpleData>
+                        <SimpleData name="longitude">-156.00957</SimpleData>
+                        <SimpleData name="depth">54.864</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2020-10-16</SimpleData>
+                        <SimpleData name="last_year">2021-10-28</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2020-10-16&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-19&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-19&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2AR&lt;/td&gt;&lt;td align=center nowrap&gt;Transceiver&lt;/td&gt;&lt;td align=center nowrap&gt;2021-02-23&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;2021-10-28&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.00957,19.82762</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

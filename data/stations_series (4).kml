@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="stations_series_1" id="stations_series_1">
+            <SimpleField type="string" name="collectioncode"/>
+            <SimpleField type="string" name="seriescode"/>
+            <SimpleField type="string" name="ocean"/>
+            <SimpleField type="string" name="station_name"/>
+            <SimpleField type="string" name="station_type"/>
+            <SimpleField type="string" name="latitude"/>
+            <SimpleField type="string" name="longitude"/>
+            <SimpleField type="string" name="depth"/>
+            <SimpleField type="string" name="stationstatus"/>
+            <SimpleField type="string" name="stationclass"/>
+            <SimpleField type="string" name="first_year"/>
+            <SimpleField type="string" name="last_year"/>
+            <SimpleField type="string" name="locality"/>
+            <SimpleField type="string" name="notes"/>
+            <SimpleField type="string" name="rcvr_serial"/>
+            <SimpleField type="string" name="map_code"/>
+        </Schema>
+        <Folder>
+            <name>stations_series</name>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e36">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R4-MCGREGER POINT</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.77413</SimpleData>
+                        <SimpleData name="longitude">-156.52092</SimpleData>
+                        <SimpleData name="depth">24.4696</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-29</SimpleData>
+                        <SimpleData name="last_year">2017-01-10</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2017-04-28&lt;/td&gt;&lt;td align=center nowrap&gt;2017-01-10&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.52092,20.77413</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e35">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R11-LAE OKAKA</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.50659</SimpleData>
+                        <SimpleData name="longitude">-156.54376</SimpleData>
+                        <SimpleData name="depth">126.5776</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-27</SimpleData>
+                        <SimpleData name="last_year">2016-03-16</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.54376,20.50659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e34">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R1-SUB_A</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.63359</SimpleData>
+                        <SimpleData name="longitude">-156.49791</SimpleData>
+                        <SimpleData name="depth">14.716000000000001</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-28</SimpleData>
+                        <SimpleData name="last_year">2016-09-05</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-28&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.49791,20.63359</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e33">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R6-NORTH SEA MOUNT</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.66218</SimpleData>
+                        <SimpleData name="longitude">-156.49823</SimpleData>
+                        <SimpleData name="depth">115.90960000000001</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-29</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-29&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.49823,20.66218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e32">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R10-LA PEROUSE</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.57911</SimpleData>
+                        <SimpleData name="longitude">-156.41499</SimpleData>
+                        <SimpleData name="depth">19.288</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-24</SimpleData>
+                        <SimpleData name="last_year">2016-09-05</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-24&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.41499,20.57911</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e31">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R9-NORTH KIR</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.60172</SimpleData>
+                        <SimpleData name="longitude">-156.61555</SimpleData>
+                        <SimpleData name="depth">89.08720000000001</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-27</SimpleData>
+                        <SimpleData name="last_year">2016-03-16</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.61555,20.60172</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e30">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R3-SUB_A</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.6332</SimpleData>
+                        <SimpleData name="longitude">-156.49524</SimpleData>
+                        <SimpleData name="depth">27.2128</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-28</SimpleData>
+                        <SimpleData name="last_year">2016-09-05</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-28&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.49524,20.6332</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e2f">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R5-SUB_B</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.63042</SimpleData>
+                        <SimpleData name="longitude">-156.49553</SimpleData>
+                        <SimpleData name="depth">19.288</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-27</SimpleData>
+                        <SimpleData name="last_year">2016-09-05</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2016-03-16&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.49553,20.63042</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e2e">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R2-SUB_A</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.63229</SimpleData>
+                        <SimpleData name="longitude">-156.49693</SimpleData>
+                        <SimpleData name="depth">14.716000000000001</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-27</SimpleData>
+                        <SimpleData name="last_year">2016-12-07</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-27&lt;/td&gt;&lt;td align=center nowrap&gt;2016-09-05&lt;/td&gt;&lt;td align=center nowrap&gt;2016-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;2&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.49693,20.63229</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e2d">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R8-HAKIOAWA KIR</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.59367</SimpleData>
+                        <SimpleData name="longitude">-156.551</SimpleData>
+                        <SimpleData name="depth">14.716000000000001</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2013-06-13</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2013-06-13&lt;/td&gt;&lt;td align=center nowrap&gt;2018-07-26&lt;/td&gt;&lt;td align=center nowrap&gt;-&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.551,20.59367</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="stations_series.fid--2e4a691_19d8a6e5d4c_-5e2c">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#stations_series_1">
+                        <SimpleData name="collectioncode">PIRAT.MNUI</SimpleData>
+                        <SimpleData name="seriescode">PIRAT</SimpleData>
+                        <SimpleData name="ocean">MID PACIFIC</SimpleData>
+                        <SimpleData name="station_name">R7-KAUPO</SimpleData>
+                        <SimpleData name="station_type">Acoustic</SimpleData>
+                        <SimpleData name="latitude">20.62827</SimpleData>
+                        <SimpleData name="longitude">-156.11826</SimpleData>
+                        <SimpleData name="depth">25.384</SimpleData>
+                        <SimpleData name="stationstatus">active</SimpleData>
+                        <SimpleData name="stationclass">deployed</SimpleData>
+                        <SimpleData name="first_year">2015-08-28</SimpleData>
+                        <SimpleData name="last_year">2016-12-07</SimpleData>
+                        <SimpleData name="notes">&lt;small&gt;&lt;table border=1&gt;&lt;tr&gt;&lt;th&gt;instrument&lt;/th&gt;&lt;th&gt;type&lt;/th&gt;&lt;th&gt;deploy date&lt;/th&gt;&lt;th&gt;last download&lt;/th&gt;&lt;th&gt;recovery date&lt;/th&gt;&lt;th&gt;downloads&lt;/th&gt;&lt;th&gt;offset&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VR2W&lt;/td&gt;&lt;td align=center nowrap&gt;Acoustic&lt;/td&gt;&lt;td align=center nowrap&gt;2015-08-28&lt;/td&gt;&lt;td align=center nowrap&gt;2019-03-23&lt;/td&gt;&lt;td align=center nowrap&gt;2016-12-07&lt;/td&gt;&lt;td align=center nowrap&gt;1&lt;/td&gt;&lt;td align=center nowrap&gt;0.0 m&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/small&gt;</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-156.11826,20.62827</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
